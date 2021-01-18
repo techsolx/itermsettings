@@ -430,7 +430,7 @@
 		</dict>
 	</dict>
 	<key>Default Arrangement Name</key>
-	<string>iMacRight</string>
+	<string>LeftSide</string>
 	<key>Default Bookmark Guid</key>
 	<string>D18D43E3-69DD-4723-B79F-D85FBB3AD367</string>
 	<key>GlobalKeyMap</key>
@@ -1968,7 +1968,7 @@
 	<false/>
 	<key>Window Arrangements</key>
 	<dict>
-		<key>Arrangement 2</key>
+		<key>LeftSide</key>
 		<array>
 			<dict>
 				<key>Desired Columns</key>
@@ -1978,11 +1978,11 @@
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>1727</real>
+				<real>1775</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
-				<false/>
+				<true/>
 				<key>Initial Profile</key>
 				<dict/>
 				<key>Is Hotkey Window</key>
@@ -1998,6 +1998,8 @@
 					<dict>
 						<key>Root</key>
 						<dict>
+							<key>Splitter ID</key>
+							<string>471AEF06-A13B-4C63-A089-94F6FA5088C9</string>
 							<key>Subviews</key>
 							<array>
 								<dict>
@@ -2689,11 +2691,16 @@
 											<string>/Users/jmact</string>
 										</dict>
 										<key>Columns</key>
-										<integer>224</integer>
+										<integer>226</integer>
 										<key>Commands</key>
-										<array/>
+										<array>
+											<string>tmux</string>
+										</array>
 										<key>Directories</key>
 										<array>
+											<string>/Users/jmact</string>
+											<string>/Users/jmact</string>
+											<string>/Users/jmact</string>
 											<string>/Users/jmact</string>
 											<string>/Users/jmact</string>
 										</array>
@@ -2704,26 +2711,46 @@
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict>
-											<key>jmact@iMac.local</key>
+											<key>jmact@iMac.975house</key>
 											<string>bash</string>
 										</dict>
 										<key>Hosts</key>
 										<array>
 											<dict>
 												<key>Host name</key>
-												<string>iMac.local</string>
+												<string>iMac.975house</string>
 												<key>User name</key>
 												<string>jmact</string>
 											</dict>
 											<dict>
 												<key>Host name</key>
-												<string>iMac.local</string>
+												<string>iMac.975house</string>
+												<key>User name</key>
+												<string>jmact</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>iMac.975house</string>
+												<key>User name</key>
+												<string>jmact</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>iMac.975house</string>
+												<key>User name</key>
+												<string>jmact</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>iMac.975house</string>
 												<key>User name</key>
 												<string>jmact</string>
 											</dict>
 										</array>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Key Labels</key>
+										<dict/>
 										<key>Name Controller State</key>
 										<dict>
 											<key>icon title stack</key>
@@ -2733,15 +2760,13 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "jmact"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>100</integer>
+										<integer>102</integer>
 										<key>Session GUID</key>
-										<string>264FD4CE-8C3C-48EC-BD9B-03C550C29E17</string>
+										<string>78759009-9A75-4D85-8628-F26317BEB246</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -2760,9 +2785,9 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1704</real>
+										<real>1746</real>
 										<key>width</key>
-										<real>1593</real>
+										<real>1607</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -2775,9 +2800,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1704</real>
+								<real>1746</real>
 								<key>width</key>
-								<real>1593</real>
+								<real>1607</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -2786,10 +2811,12 @@
 							<key>isVertical</key>
 							<false/>
 						</dict>
+						<key>Tab GUID</key>
+						<string>04308010-64BD-4B9A-9C02-9B812195639E</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-C33CB28F-464B-43A6-A97D-1B42B08EFEF0</string>
+				<string>pty-8FFD1E4F-2DC5-403D-B1D0-BFF564F1DB45</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -2818,16 +2845,16 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>1593</real>
+				<real>1607</real>
 				<key>Window Type</key>
 				<integer>0</integer>
 				<key>X Origin</key>
-				<real>1607</real>
+				<real>6</real>
 				<key>Y Origin</key>
-				<real>50</real>
+				<real>0.0</real>
 			</dict>
 		</array>
-		<key>iMacRight</key>
+		<key>RightSide</key>
 		<array>
 			<dict>
 				<key>Desired Columns</key>
