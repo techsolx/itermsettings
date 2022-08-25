@@ -434,7 +434,7 @@
 		</dict>
 	</dict>
 	<key>Default Arrangement Name</key>
-	<string>LeftSide</string>
+	<string>RightSide</string>
 	<key>Default Bookmark Guid</key>
 	<string>D18D43E3-69DD-4723-B79F-D85FBB3AD367</string>
 	<key>GlobalKeyMap</key>
@@ -551,6 +551,18 @@
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>Recycle</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>Recycle</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>Recycle</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -753,7 +765,7 @@
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.1491314172744751</real>
+				<real>0.14910027384757996</real>
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
@@ -802,9 +814,9 @@
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.9268307089805603</real>
+				<real>0.92681378126144409</real>
 				<key>Red Component</key>
-				<real>0.70213186740875244</real>
+				<real>0.70214027166366577</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -820,7 +832,7 @@
 			<key>Custom Command</key>
 			<string>Yes</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Advanced</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -1145,11 +1157,11 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73423302173614502</real>
+				<real>0.73422712087631226</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.35916060209274292</real>
+				<real>0.35915297269821167</real>
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
@@ -1174,7 +1186,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1214,7 +1226,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -2872,7 +2884,7 @@
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>1777</real>
+				<real>1869</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
@@ -2884,7 +2896,9 @@
 				<key>Saved Window Type</key>
 				<integer>0</integer>
 				<key>Screen</key>
-				<integer>0</integer>
+				<integer>1</integer>
+				<key>Scroller Width</key>
+				<real>0.0</real>
 				<key>Selected Tab Index</key>
 				<integer>0</integer>
 				<key>Tabs</key>
@@ -2892,6 +2906,8 @@
 					<dict>
 						<key>Root</key>
 						<dict>
+							<key>Splitter ID</key>
+							<string>471AEF06-A13B-4C63-A089-94F6FA5088C9</string>
 							<key>Subviews</key>
 							<array>
 								<dict>
@@ -2903,6 +2919,18 @@
 										<dict>
 											<key>ASCII Anti Aliased</key>
 											<true/>
+											<key>AWDS Pane Directory</key>
+											<string></string>
+											<key>AWDS Pane Option</key>
+											<string>Recycle</string>
+											<key>AWDS Tab Directory</key>
+											<string></string>
+											<key>AWDS Tab Option</key>
+											<string>Recycle</string>
+											<key>AWDS Window Directory</key>
+											<string></string>
+											<key>AWDS Window Option</key>
+											<string>Recycle</string>
 											<key>Ambiguous Double Width</key>
 											<false/>
 											<key>Ansi 0 Color</key>
@@ -3170,9 +3198,9 @@
 												<real>0.027450980392156862</real>
 											</dict>
 											<key>Custom Command</key>
-											<string>No</string>
+											<string>Yes</string>
 											<key>Custom Directory</key>
-											<string>No</string>
+											<string>Advanced</string>
 											<key>Default Bookmark</key>
 											<string>No</string>
 											<key>Description</key>
@@ -3553,6 +3581,8 @@
 											<false/>
 											<key>Shortcut</key>
 											<string></string>
+											<key>Show Mark Indicators</key>
+											<false/>
 											<key>Silence Bell</key>
 											<false/>
 											<key>Sync Title</key>
@@ -3564,7 +3594,7 @@
 											<key>Transparency</key>
 											<real>0.0</real>
 											<key>Unlimited Scrollback</key>
-											<false/>
+											<true/>
 											<key>Use Bold Font</key>
 											<true/>
 											<key>Use Bright Bold</key>
@@ -3583,16 +3613,24 @@
 											<string>/Users/jmact</string>
 										</dict>
 										<key>Columns</key>
-										<integer>226</integer>
+										<integer>234</integer>
 										<key>Commands</key>
 										<array>
 											<string>tmux</string>
+											<string>cd ~</string>
+											<string>clear</string>
 										</array>
 										<key>Directories</key>
 										<array>
 											<string>/Users/jmact</string>
 											<string>/Users/jmact</string>
 											<string>/Users/jmact</string>
+											<string>/Users/jmact</string>
+											<string>/Users/jmact</string>
+											<string>/</string>
+											<string>/</string>
+											<string>/Users/johnm</string>
+											<string>/Users/johnm</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -3602,6 +3640,8 @@
 										<key>Hostname to Shell</key>
 										<dict>
 											<key>jmact@iMac.975house</key>
+											<string>bash</string>
+											<key>johnm@pedago-mbp.nr3800</key>
 											<string>bash</string>
 										</dict>
 										<key>Hosts</key>
@@ -3624,9 +3664,47 @@
 												<key>User name</key>
 												<string>jmact</string>
 											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>iMac.975house</string>
+												<key>User name</key>
+												<string>jmact</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>iMac.975house</string>
+												<key>User name</key>
+												<string>jmact</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>pedago-mbp.nr3800</string>
+												<key>User name</key>
+												<string>johnm</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>pedago-mbp.nr3800</string>
+												<key>User name</key>
+												<string>johnm</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>pedago-mbp.nr3800</string>
+												<key>User name</key>
+												<string>johnm</string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>pedago-mbp.nr3800</string>
+												<key>User name</key>
+												<string>johnm</string>
+											</dict>
 										</array>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Key Labels</key>
+										<dict/>
 										<key>Name Controller State</key>
 										<dict>
 											<key>icon title stack</key>
@@ -3636,36 +3714,34 @@
 										</dict>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "jmact"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>102</integer>
+										<integer>108</integer>
 										<key>Session GUID</key>
 										<string>78759009-9A75-4D85-8628-F26317BEB246</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
-										<false/>
+										<true/>
 										<key>Should Expect Prompt Marks</key>
 										<true/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/jmact</string>
+										<string>/Users/johnm</string>
 										<key>Working Directory Poller Disabled</key>
-										<false/>
+										<true/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1754</real>
+										<real>1840</real>
 										<key>width</key>
-										<real>1607</real>
+										<real>1648</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -3678,9 +3754,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1754</real>
+								<real>1840</real>
 								<key>width</key>
-								<real>1607</real>
+								<real>1648</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -3689,6 +3765,8 @@
 							<key>isVertical</key>
 							<false/>
 						</dict>
+						<key>Tab GUID</key>
+						<string>04308010-64BD-4B9A-9C02-9B812195639E</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
@@ -3721,13 +3799,13 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>1607</real>
+				<real>1648</real>
 				<key>Window Type</key>
 				<integer>0</integer>
 				<key>X Origin</key>
-				<real>1592</real>
+				<real>1731</real>
 				<key>Y Origin</key>
-				<real>0.0</real>
+				<real>75</real>
 			</dict>
 		</array>
 	</dict>
